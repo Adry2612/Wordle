@@ -90,22 +90,25 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-gap: 8px;
+gap: 2px;
 `
 
 const RowWrapper = styled.div`
 display: flex;
 flex-direction: row;
-gap: 8px;
+gap: 2px;
 `
 
 const LetterWrapper = styled.input`
-width: 80px;
-height: 80px;
+width: 60px;
+height: 60px;
 background-color: #787C7E;
+border: none;
 color: #fff;
 font-size: 32px;
 display: flex;
 text-align: center;
-margin: 8px;
+margin: 2px;
+font-weight: bold;
+
 `
