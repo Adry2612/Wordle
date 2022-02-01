@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 export default function Header() {
   return <Nav>
-          <i className="far fa-question-circle"></i>
+          <Icon className="far fa-question-circle"></Icon>
 
           <Title> WORDLE (ES) </Title>
       
           <Options>
-              <i className="fas fa-chart-bar"></i>
-              <i className="fas fa-cog"></i>
+              <Icon className="fas fa-chart-bar"></Icon>
+              <Icon className="fas fa-cog"></Icon>
           </Options>
       </Nav>
   
@@ -19,12 +19,17 @@ const Nav = styled.div`
     top: 0;
     position: absolute;
     padding: 8px;
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D5D5D4;
+    color: #737372;
+`
+
+const Icon = styled.i`
+    font-size: 20px;
     color: #737372;
 `
 
